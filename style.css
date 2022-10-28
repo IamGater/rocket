@@ -1,6 +1,4 @@
-*
-
-{
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -21,7 +19,7 @@ box-sizing: border-box;
     position: absolute;
     top: -250px;
     background: rgba(255, 255, 255, 0.5);
-    animation: animate linear infinite;
+    animation: animateStars linear infinite;
 }
 @keyframes animateStars
 {
@@ -31,7 +29,7 @@ box-sizing: border-box;
     }
     100%
     {
-        transform: translateX(100vh);
+        transform: translateY(200vh);
     }
 }
 .scene .rocket
@@ -71,4 +69,5 @@ box-sizing: border-box;
     width: 10px;
     height: 200px;
     background: linear-gradient(#00d0ff,transparent);
+    filter:blur(20px);
 }
