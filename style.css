@@ -29,7 +29,7 @@ box-sizing: border-box;
     }
     100%
     {
-        transform: translateY(200vh);
+        transform: translateX(200vh);
     }
 }
 .scene .rocket
